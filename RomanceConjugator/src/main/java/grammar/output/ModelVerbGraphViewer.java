@@ -18,14 +18,15 @@ import edu.uci.ics.jung.graph.decorators.VertexStrokeFunction;
 import edu.uci.ics.jung.graph.impl.DirectedSparseEdge;
 import edu.uci.ics.jung.graph.impl.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.impl.DirectedSparseVertex;
-import edu.uci.ics.jung.visualization.BirdsEyeVisualizationViewer;
 import edu.uci.ics.jung.visualization.FRLayout;
 import edu.uci.ics.jung.visualization.Layout;
 import edu.uci.ics.jung.visualization.PickedState;
 import edu.uci.ics.jung.visualization.PluggableRenderer;
+import edu.uci.ics.jung.visualization.Renderer;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
 import edu.uci.ics.jung.visualization.control.EditingModalGraphMouse;
 import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
+import edu.uci.ics.jung.visualization.control.SatelliteVisualizationViewer;
 import edu.uci.ics.jung.visualization.transform.MutableTransformer;
 import grammar.input.xml.DataManager;
 import grammar.model.Form;
@@ -129,11 +130,15 @@ public class ModelVerbGraphViewer {
 		graphMouse.setMode(ModalGraphMouse.Mode.PICKING);
         vv.setGraphMouse(graphMouse);
         
-        final BirdsEyeVisualizationViewer bird =
-            new BirdsEyeVisualizationViewer(vv, 0.25f, 0.25f);
+        Dimension d = new Dimension();
+        d.setSize(300, 300);
+        Layout l = new FRLayout(graph);
+        Renderer r = new PluggableRenderer();
+        final SatelliteVisualizationViewer bird =
+            new SatelliteVisualizationViewer(vv, l, r, d);
         
-        bird.initLens();
-
+        bird.init();
+        
         Container c = viewerDialog.getContentPane();
         
         JComponent panelWest = new JPanel();

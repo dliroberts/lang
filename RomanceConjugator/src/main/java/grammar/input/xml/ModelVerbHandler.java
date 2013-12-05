@@ -112,10 +112,6 @@ class ModelVerbHandler extends DataHandler<ModelVerb> {
 			auxiliaryOfContext = true;
 		}
 		else if (qName.equals("rule")) {
-//			++ruleNum;
-//			if (name.equalsIgnoreCase("indreverb"))
-//			{int x=0;x++;}
-//			System.out.println(ruleNum);
 			ruleContext = true;
 			affectedTenses.clear();
 			affectedMoods.clear();
@@ -362,10 +358,6 @@ class ModelVerbHandler extends DataHandler<ModelVerb> {
 						String rule = parsedString;
 						segmentMap.put(affectedSegments.get(0), rule);
 						tenseMap.put(affectedTense, pronounMap);
-
-						if (!affectedTenses.get(0).getMood().isPersonal()) {
-							int x = 1; x++;
-						}
 					}
 				}
 			}

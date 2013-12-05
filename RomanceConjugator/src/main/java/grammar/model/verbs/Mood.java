@@ -1,5 +1,14 @@
 package grammar.model.verbs;
 
+import grammar.input.xml.DataManager;
+import grammar.model.Form;
+import grammar.model.Language;
+import grammar.model.MatchType;
+import grammar.model.PseudoEnum;
+import grammar.model.factory.ModelVerbFactory;
+import grammar.model.verbs.ModelVerb.ConjugatedVerb;
+import grammar.util.Utilities;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.SortedSet;
@@ -9,16 +18,6 @@ import java.util.regex.Pattern;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import grammar.input.xml.DataManager;
-import grammar.model.Form;
-import grammar.model.Language;
-import grammar.model.MatchType;
-import grammar.model.PseudoEnum;
-import grammar.model.factory.ModelVerbFactory;
-import grammar.model.verbs.ModelVerb.ConjugatedVerb;
-import grammar.output.ModelVerbGraphViewer;
-import grammar.util.Utilities;
 
 public class Mood implements PseudoEnum<Mood> {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Mood.class);

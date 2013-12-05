@@ -3,7 +3,7 @@
 		<identifier>english</identifier>
 		<native-name>English</native-name>
 		<reflexive-verbs>
-				<pattern>([^ ]+) oneself</pattern>
+			<pattern>([^ ]+) oneself</pattern>
 		</reflexive-verbs>
 	</language>
 	<language>

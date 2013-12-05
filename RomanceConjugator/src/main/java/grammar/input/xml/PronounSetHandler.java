@@ -127,7 +127,11 @@ class MapEntryImpl<K,V> implements Map.Entry<K,V> {
 	
 	@Override
 	public int hashCode() {
-		return key.hashCode() ^ value.hashCode();
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((key == null) ? 0 : key.hashCode());
+		result = prime * result + ((value == null) ? 0 : value.hashCode());
+		return result;
 	}
 	
 	public V setValue(V value) {
@@ -142,7 +146,7 @@ class MapEntryImpl<K,V> implements Map.Entry<K,V> {
 			return false;
 		if (!(obj instanceof MapEntryImpl))
 			return false;
-		final MapEntryImpl<K,V> other = (MapEntryImpl<K,V>) obj;
+		MapEntryImpl<?,?> other = (MapEntryImpl<?,?>) obj;
 		if (key == null) {
 			if (other.key != null)
 				return false;
@@ -156,27 +160,3 @@ class MapEntryImpl<K,V> implements Map.Entry<K,V> {
 		return true;
 	}
 }
-
-/*public class PronounSetParser {
-	public Map.Entry<String, Set<PronounCategory>> parse(File xmlFile)
-			throws IOException, IllegalLoadOrderException {
-		SAXParserFactory factory = SAXParserFactory.newInstance();
-		try {
-			SAXParser parser = factory.newSAXParser();
-			PronounSetHandler handler = new PronounSetHandler();
-			parser.parse(xmlFile, handler);
-			
-			return handler.getPronounSet();
-		}
-		catch (MalformedByteSequenceException mbse) {
-			throw new IOException("Please save file '"+
-					xmlFile.toString()+"' using UTF-8 encoding.");
-		}
-		catch (SAXException se) {
-			throw new IOException(se);
-		}
-		catch (ParserConfigurationException pce) {
-			throw new IOException(pce);
-		}
-	}
-}*/

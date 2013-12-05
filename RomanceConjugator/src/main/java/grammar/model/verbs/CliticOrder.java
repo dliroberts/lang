@@ -30,6 +30,10 @@ public class CliticOrder {
 		return null; // FIXME
 	}
 	
+	public String getName() {
+		return name;
+	}
+
 	public static class If {
 		private final boolean conditional;
 		private final String conditionStr;

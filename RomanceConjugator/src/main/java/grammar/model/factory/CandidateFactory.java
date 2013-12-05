@@ -6,7 +6,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class CandidateFactory<C extends Candidate> {
+	private static final Logger LOGGER = LoggerFactory.getLogger(CandidateFactory.class);
+	
 	private static CandidateFactory instance;
 	
 	private final Set<C> candidateModels;
@@ -32,17 +37,20 @@ public class CandidateFactory<C extends Candidate> {
 		
 		C bestFit = null;
 		
-		List<C> matches = new ArrayList<C>(); // For debugging only
+		List<C> matches = null;
+		if (LOGGER.isDebugEnabled())
+			matches = new ArrayList<C>();
 		
 		for (C current : candidateModels) {
 			if (current.matches(infinitive)) {
-				matches.add(current);
+				if (LOGGER.isDebugEnabled())
+					matches.add(current);
 				if (bestFit == null || current.isCloserMatch(infinitive, bestFit)) {
 					bestFit = current;
 				}
 			}
 		}
-//		System.out.println("Matching models: "+matches);
+		LOGGER.debug("Matching models: {}", matches);
 		if (bestFit == null)
 			throw new IllegalArgumentException("No gender match found for infinitive "+infinitive+".");
 		
