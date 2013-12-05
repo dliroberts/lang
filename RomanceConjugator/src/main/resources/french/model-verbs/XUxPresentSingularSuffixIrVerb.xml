@@ -1,0 +1,17 @@
+<verb>
+    <name>XUxPresentSingularSuffix</name>
+    <parent>XGenericRule</parent>
+    <summary>Present singular suffixes.</summary>
+
+	    <rule>
+	        <tense>present</tense>
+	        <suffix>
+	            <singular>
+		        <first>ux</first>
+		        <second>ux</second>
+		        <third>ut</third>
+		    </singular>
+	        </suffix>
+    </rule>
+
+</verb>

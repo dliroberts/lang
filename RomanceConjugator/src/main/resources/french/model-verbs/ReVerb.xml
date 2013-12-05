@@ -1,0 +1,29 @@
+<verb>
+    <name>Re</name>
+    <parent>Root</parent>
+    <parent>XIHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <infinitive>
+    	<suffix>re</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>present</tense>
+		<suffix>
+			<singular>
+				<first>s</first>
+				<second>s</second>
+				<third/>
+			</singular>
+		</suffix>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>r</all>
+		</infix>
+	</rule>
+
+</verb>

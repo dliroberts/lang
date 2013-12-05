@@ -1,0 +1,23 @@
+<verb>
+    <name>VFrir</name>
+    <parent>Aillir</parent>
+    <infinitive>
+        <pattern>.*(f|v)rir</pattern>
+    </infinitive>
+    <summary>Perfect suffix (ert); no r in the perfect stem.</summary>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>ert</first>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+            <first>-3</first>
+        </stem>
+    </rule>
+
+</verb>

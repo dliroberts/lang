@@ -1,0 +1,27 @@
+<verb>
+    <name>Pourvoir</name>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XShortPresentSuffix</parent>
+	<parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>pourvoir</suffix>
+    </infinitive>
+    <summary>The o is omitted in the historic, subjunctive imperfect and perfect tenses.</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+</verb>

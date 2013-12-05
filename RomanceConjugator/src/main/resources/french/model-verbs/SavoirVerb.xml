@@ -1,0 +1,98 @@
+<verb>
+    <name>Savoir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<full-name>savoir</full-name>
+    </infinitive>
+    <summary>Stem excludes between 3 and 5 letters of the infinitive in all tenses. Infixes for future (ur) and subjunctive present (ch).</summary>
+
+    <rule>
+        <scope>
+            <mood>imperative</mood>
+	    	<segment>stem</segment>
+	    	<segment>infix</segment>
+	    	<segment>suffix</segment>
+        </scope>
+        <target>
+            <tense>subjunctive present</tense>
+        </target>
+        <forms>
+            <singular>
+                <second><parent/></second>
+            </singular>
+            <plural>
+                <first><parent/></first>
+                <second><parent/></second>
+            </plural>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>gerund present</tense>
+            <segment>stem</segment>
+            <segment>infix</segment>
+        </scope>
+        <target>
+            <tense>subjunctive present</tense>
+        </target>
+        <forms>
+            <first>first person singular</first>
+        </forms>
+    </rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<all>-4</all>
+			</singular>
+			<plural>
+				<all>-3</all>
+			</plural>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<tense>participle perfect</tense>
+		<stem>
+			<all>-5</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>imperative present</tense>
+		<suffix>
+			<plural>
+				<first>ons</first>
+				<second>ez</second>
+			</plural>
+		</suffix>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<tense>subjunctive present</tense>
+		<stem>
+			<all>-4</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>ur</all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>subjunctive present</tense>
+		<infix>
+			<all>ch</all>
+		</infix>
+	</rule>
+
+</verb>

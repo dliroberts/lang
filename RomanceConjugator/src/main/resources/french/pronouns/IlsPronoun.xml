@@ -1,0 +1,9 @@
+<pronoun>
+	<label>ils</label>
+	<gender>masculine</gender>
+	<applicability>
+		<multiplicity>plural</multiplicity>
+		<person>third</person>
+		<subject/>
+	</applicability>
+</pronoun>

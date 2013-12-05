@@ -1,0 +1,28 @@
+<verb>
+    <name>Voir</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>XErrFutureInfix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>voir</suffix>
+    </infinitive>
+    <summary>The o is omitted in the future, historic, subjunctive imperfect and perfect tenses.</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<tense>future</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+</verb>

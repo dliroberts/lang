@@ -1,0 +1,8 @@
+<pronoun>
+	<label>toi</label>
+	<form>
+		<multiplicity>singular</multiplicity>
+	    <person>second</person>
+	    <disjunctive/>
+	</form>
+</pronoun>

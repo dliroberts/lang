@@ -1,0 +1,65 @@
+<verb>
+    <name>Clore</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XSPerfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>clore</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>imperfect</tense>
+			<tense>historic</tense>
+			<tense>subjunctive imperfect</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<forms>
+			<singular>
+				<all><parent/></all>
+			</singular>
+			<plural>
+				<third><parent/></third>
+			</plural>
+		</forms>
+	</rule>
+
+	<rule>
+		<tense>imperative present</tense>
+		<forms>
+			<singular>
+				<second><parent/></second>
+			</singular>
+		</forms>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<third>-3</third>
+			</singular>
+		</stem>
+		<infix>
+			<singular>
+				<third>ô</third>
+			</singular>
+			<plural>
+				<third>s</third>
+			</plural>
+		</infix>
+	</rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>s</first>
+        </suffix>
+    </rule>
+
+</verb>

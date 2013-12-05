@@ -1,0 +1,85 @@
+<verb>
+    <name>Avoir</name>
+    <parent>XAuxiliary</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <infinitive>
+        <full-name>Avoir</full-name>
+    </infinitive>
+	<summary>Default, catch-all auxiliary. Stems for imperfect (av), future (aur), perfect/historic/subjunctive imperfect (e)
+	and subjunctive present (a). Suffixes for perfect (u), present and subjunctive present.</summary>
+    <auxiliary-of>
+    	<full-name>circonvenir</full-name>
+    	<full-name>subvenir</full-name>
+    	<full-name>prévenir</full-name>
+    	<suffix>connaître</suffix>
+    	<suffix>tenir</suffix>
+    	<all /> <!-- weakly binding; overridden by any other flag -->
+    </auxiliary-of>
+
+    <rule>
+        <tense>participle present</tense>
+        <stem>
+ 	        <first>ay</first>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+        	<all>e</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+        	<first>e</first>
+        </stem>
+    </rule>
+
+	<rule>
+	    <tense>future</tense>
+	    <stem>
+	       	<all>aur</all>
+	    </stem>
+	</rule>
+
+        <rule>
+            <tense>subjunctive present</tense>
+            <stem>
+'    	        <all>a</all>
+            </stem>
+        </rule>
+
+        <rule>
+            <tense>subjunctive present</tense>
+            <suffix>
+    	        <singular>
+	    	        <first>ie</first>
+	    	        <second>ies</second>
+    	        </singular>
+            </suffix>
+        </rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<subj2>av</subj2>
+		</stem>
+	</rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+                <first>ai</first>
+                <second>as</second>
+                <third>a</third>
+            </singular>
+            <plural>
+                <third>ont</third>
+            </plural>
+        </suffix>
+    </rule>
+
+</verb>

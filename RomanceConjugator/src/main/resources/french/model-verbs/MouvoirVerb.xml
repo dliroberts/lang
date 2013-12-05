@@ -1,0 +1,40 @@
+<verb>
+    <name>Mouvoir</name>
+    <parent>XÛParticiplePerfectSuffix</parent>
+    <parent>XShorterPresentSingularStem</parent>
+    <parent>XOuvoir</parent>
+    <infinitive>
+    	<pattern>(m)ouvoir</pattern>
+    </infinitive>
+    <summary>Infixes for present/subjunctive present (eu/euv) and future (vr). 6 or 3 letters of the infinitive are not
+    used in the subjunctive present.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <singular>
+		        <all>eu</all>
+		    </singular>
+		    <plural>
+		    	<third>euv</third>
+		    </plural>
+        </infix>
+    </rule>
+
+	<rule>
+		<tense>present</tense>
+		<tense>subjunctive present</tense>
+		<stem>
+			<subj1>\1</subj1>
+			<subj2>-3</subj2>
+		</stem>
+	</rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+	        <all>vr</all>
+        </infix>
+    </rule>
+
+</verb>

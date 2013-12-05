@@ -1,0 +1,12 @@
+<verb>
+    <name>XUsPerfectSuffix</name>
+    <parent>XGenericRule</parent>
+	<summary>Perfect suffix (us).</summary>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>us</first>
+        </suffix>
+    </rule>
+</verb>

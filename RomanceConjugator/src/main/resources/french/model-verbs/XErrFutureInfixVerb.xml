@@ -1,0 +1,12 @@
+<verb>
+    <name>XErrFutureInfix</name>
+    <parent>XGenericRule</parent>
+    <summary>Future infix (err).</summary>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>err</all>
+        </infix>
+    </rule>
+</verb>

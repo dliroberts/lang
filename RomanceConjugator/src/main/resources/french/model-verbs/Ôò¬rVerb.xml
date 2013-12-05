@@ -1,0 +1,40 @@
+<verb>
+    <name>Ïr</name>
+    <parent>Ir</parent>
+    <infinitive>
+        <suffix>ïr</suffix>
+    </infinitive>
+    <summary>Ï rather than i everywhere except present singular.</summary>
+
+        <rule>
+            <tense>participle perfect</tense>
+            <suffix>
+                <first>ï</first>
+            </suffix>
+        </rule>
+
+        <rule>
+            <tense>present</tense>
+            <infix>
+                <plural>
+    	            <all>ïss</all>
+    	        </plural>
+            </infix>
+        </rule>
+
+
+        <rule>
+            <tense>future</tense>
+            <infix>
+    	        <all>ïr</all>
+            </infix>
+        </rule>
+
+        <rule>
+            <tense>historic</tense>
+            <infix>
+    	        <all>ï</all>
+            </infix>
+        </rule>
+
+</verb>

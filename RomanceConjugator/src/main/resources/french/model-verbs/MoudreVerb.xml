@@ -1,0 +1,44 @@
+<verb>
+    <name>Moudre</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>moudre</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <plural>
+                <all>-3</all>
+            </plural>
+        </stem>
+        <infix>
+            <plural>
+                <all>l</all>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+			<all>-3</all>
+        </stem>
+        <infix>
+			<all>l<parent/></all>
+        </infix>
+    </rule>
+
+	<rule>
+        <tense>participle perfect</tense>
+        <infix>
+			<first>l</first>
+        </infix>
+        <stem>
+			<first>-3</first>
+        </stem>
+    </rule>
+
+</verb>

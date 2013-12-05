@@ -1,0 +1,18 @@
+<verb>
+    <name>Naître</name>
+    <parent>XÉParticiplePerfectSuffix</parent>
+    <parent>XIHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Ître</parent>
+    <infinitive>
+        <pattern>((?:.*[^n])?na)ître</pattern> <!-- don't match anything with the suffix nnaître -->
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>\1qu</all>
+		</stem>
+	</rule>
+
+</verb>

@@ -1,0 +1,15 @@
+<verb>
+    <name>Suffire</name>
+    <parent>Confire</parent>
+    <infinitive>
+    	<pattern>(.*suffi)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<suffix>
+			<first/>
+		</suffix>
+	</rule>
+</verb>

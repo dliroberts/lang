@@ -1,0 +1,43 @@
+<verb>
+    <name>Pouvoir</name>
+    <parent>XUxPresentSingularSuffix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XRrFutureStem</parent>
+    <parent>XOuvoir</parent>
+    <infinitive>
+    	<pattern>(p)ouvoir</pattern>
+    </infinitive>
+    <summary>6 letters of the infinitive are not used in the subjunctive present. Infixes for present (e/euv) and subjunctive present (uiss).</summary>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <stem>
+	        <all>\1</all>
+        </stem>
+    </rule>
+
+    <rule>
+    	<mood>imperative</mood>
+    	<forms/>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <singular>
+		        <all>e</all>
+		    </singular>
+		    <plural>
+		    	<third>euv</third>
+		    </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <infix>
+	        <all>uiss</all>
+        </infix>
+    </rule>
+
+</verb>

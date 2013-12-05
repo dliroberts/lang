@@ -1,0 +1,9 @@
+<verb>
+    <name>Croire</name>
+    <parent>Oire</parent>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <infinitive>
+        <suffix>croire</suffix>
+    </infinitive>
+
+</verb>

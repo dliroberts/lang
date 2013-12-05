@@ -1,0 +1,45 @@
+<verb>
+    <name>Gésir</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+        <full-name>gésir</full-name>
+    </infinitive>
+	<summary>The u is omitted from the stem in the imperfect, present and subjunctive present.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+        <infix>
+        	<singular>
+        		<first>i</first>
+        		<second>i</second>
+        		<third>î</third>
+        	</singular>
+        	<plural>
+        		<all>is</all>
+        	</plural>
+        </infix>
+    </rule>
+
+    <rule>
+    	<scope>
+	    	<tense>historic</tense>
+	    	<tense>future</tense>
+	    	<tense>perfect</tense>
+	    	<tense>pluperfect</tense>
+	    	<tense>historic pluperfect</tense>
+	    	<tense>future perfect</tense>
+	    	<mood>conditional</mood>
+	    	<mood>subjunctive</mood>
+	    	<mood>imperative</mood>
+	    	<mood>infinitive</mood>
+	    	<tense>participle perfect</tense>
+	    	<tense>gerund perfect</tense>
+	    </scope>
+	    <forms/>
+	</rule>
+
+</verb>

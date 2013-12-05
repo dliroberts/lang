@@ -1,0 +1,17 @@
+<verb>
+    <name>Confire</name>
+    <parent>XTPerfectSuffix</parent>
+    <parent>Ire</parent>
+    <parent>XSInfixImperfectAndSubjunctivePresent</parent>
+    <infinitive>
+    	<pattern>(.*confi)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+</verb>

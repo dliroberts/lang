@@ -1,0 +1,9 @@
+<pronoun>
+	<label>lui</label>
+	<gender>masculine</gender>
+	<form>
+		<multiplicity>singular</multiplicity>
+	    <person>third</person>
+	    <disjunctive/>
+	</form>
+</pronoun>

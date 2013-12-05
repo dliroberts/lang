@@ -1,0 +1,63 @@
+<verb>
+    <name>Enir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+        <suffix>enir</suffix>
+    </infinitive>
+
+    <rule>
+        <tense>present</tense>
+        <tense>historic</tense>
+        <tense>future</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+                <first>iens</first>
+                <second>iens</second>
+                <third>ient</third>
+            </singular>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <subj1>in</subj1>
+            <subj2>în</subj2>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+                <first>en</first>
+                <second>en</second>
+                <third>ienn</third>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>iendr</all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <infix>
+            <subj1>ienn</subj1>
+            <subj2>en</subj2>
+        </infix>
+    </rule>
+
+</verb>

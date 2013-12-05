@@ -1,0 +1,46 @@
+<verb>
+    <name>Ître</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>ître</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+    <rule>
+        <tense>historic</tense>
+    	<stem>
+    	    <all>-5</all>
+    	</stem>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+    	<stem>
+    	    <first>-5</first>
+    	</stem>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+    	<stem>
+    	    <all>-4</all>
+    	</stem>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+    	<infix>
+    		<singular>
+	    	    <first>i</first>
+	    	    <second>i</second>
+	    	    <third>î</third>
+	   		</singular>
+    		<plural>
+	    	    <all>iss</all>
+	   		</plural>
+    	</infix>
+    </rule>
+
+</verb>

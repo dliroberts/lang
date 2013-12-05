@@ -1,0 +1,51 @@
+<verb>
+    <name>Be</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<full-name>be</full-name>
+    </infinitive>
+
+	<auxiliary-of>
+		<all/>
+	</auxiliary-of>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<first>am</first>
+				<third>i</third> <!-- note inherited suffix 's' -->
+			</singular>
+        	<ywt>are</ywt>
+		</stem>
+	</rule>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<stem>
+       		<all/>
+       	</stem>
+      	<suffix>
+            <singular>
+            	<first>was</first>
+	            <second>were</second>
+	            <third>was</third>
+	        </singular>
+	        <plural>
+	        	<all>were</all>
+	        </plural>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<stem>
+       		<all/>
+       	</stem>
+      	<suffix>
+            <first>en</first>
+    	</suffix>
+    </rule>
+
+</verb>

@@ -1,0 +1,10 @@
+<pronoun>
+	<label>elle</label>
+	<gender>feminine</gender>
+    <applicability>
+		<multiplicity>singular</multiplicity>
+	    <person>third</person>
+	    <subject/>
+	    <disjunctive/>
+	</applicability>
+</pronoun>

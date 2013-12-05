@@ -1,0 +1,29 @@
+<verb>
+    <name>Paître</name>
+    <parent>Ître</parent>
+    <infinitive>
+        <pattern>(pa)ître</pattern>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>historic</tense>
+			<tense>subjunctive imperfect</tense>
+			<tense>perfect</tense>
+			<tense>pluperfect</tense>
+			<tense>historic pluperfect</tense>
+			<tense>future perfect</tense>
+			<tense>conditional perfect</tense>
+			<tense>conditional perfect, 2nd form</tense>
+			<tense>subjunctive perfect</tense>
+			<tense>subjunctive pluperfect</tense>
+			<tense>imperative perfect</tense>
+			<tense>infinitive perfect</tense>
+			<tense>participle perfect</tense>
+			<tense>gerund perfect</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+</verb>

@@ -1,0 +1,84 @@
+<verb>
+    <name>Être</name>
+    <parent>XAuxiliary</parent>
+    <parent>XÉParticiplePerfectSuffix</parent>
+    <infinitive>
+        <full-name>Être</full-name>
+    </infinitive>
+	<summary>Auxiliary for verbs of movement. Stems for future (ser), subjunctive present (so),
+	historic/subjunctive imperfect (f) and perfect/imperfect (ét). Suffix for perfect (é); present and subjunctive present.</summary>
+	<auxiliary-pronoun-agreement />
+    <auxiliary-of>
+    	<reflexive-verbs/>
+    	<full-name>aller</full-name>
+    	<full-name>arriver</full-name>
+    	<full-name>passer</full-name>
+    	<full-name>rester</full-name>
+    	<full-name>retourner</full-name>
+    	<full-name>mourir</full-name>
+    	<suffix>descendre</suffix>
+    	<suffix>entrer</suffix>
+    	<suffix>naître</suffix>
+    	<suffix>partir</suffix>
+    	<suffix>sortir</suffix>
+    	<suffix>monter</suffix>
+    	<suffix>tomber</suffix>
+    	<suffix>venir</suffix> <!-- overridden by a handful of <full-name> elements in AvoirVerb -->
+    </auxiliary-of>
+
+    <rule>
+        <tense>future</tense>
+		<stem>
+		  	<all>ser</all>
+		</stem>
+    </rule>
+
+        <rule>
+            <tense>subjunctive present</tense>
+            <stem>
+    	        <all>so</all>
+            </stem>
+        </rule>
+
+        <rule>
+            <tense>historic</tense>
+            <stem>
+            	<all>f</all>
+            </stem>
+        </rule>
+
+        <rule>
+            <tense>imperfect</tense>
+            <tense>participle perfect</tense>
+            <stem>
+            	<all>ét</all>
+            </stem>
+        </rule>
+
+        <rule>
+            <tense>subjunctive present</tense>
+            <suffix>
+    	        <singular>
+	    	        <first>is</first>
+	    	        <second>is</second>
+    	        </singular>
+            </suffix>
+        </rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+                <first>suis</first>
+                <second>es</second>
+                <third>est</third>
+            </singular>
+            <plural>
+    		    <first>sommes</first>
+                <second>êtes</second>
+                <third>sont</third>
+            </plural>
+        </suffix>
+    </rule>
+
+</verb>

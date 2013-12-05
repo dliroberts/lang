@@ -1,0 +1,20 @@
+<verb>
+    <name>Aillir</name>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>aillir</suffix>
+    </infinitive>
+    <summary>Present singular suffixes match those of regular er verbs.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+            	<first>e</first>
+            	<second>es</second>
+            	<third>e</third>
+            </singular>
+        </suffix>
+    </rule>
+
+</verb>

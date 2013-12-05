@@ -1,0 +1,23 @@
+<verb>
+    <name>Prévaloir</name>
+    <parent>Valoir</parent>
+    <infinitive>
+    	<pattern>(préva)loir</pattern>
+    </infinitive>
+    <summary>Infixes for subjunctive present.</summary>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <infix>
+        	<all/>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <stem>
+        	<all>-3</all>
+        </stem>
+    </rule>
+
+</verb>

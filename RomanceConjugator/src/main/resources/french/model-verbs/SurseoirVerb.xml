@@ -1,0 +1,16 @@
+<verb>
+    <name>Surseoir</name>
+    <parent>Asseoir</parent>
+    <infinitive>
+    	<pattern>(.*surs)eoir</pattern>
+    </infinitive>
+    <summary>The e in the infinitive is optional, but is not present in conjugated forms. Infix for future (ir); suffix for perfect (is).</summary>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+        	<all>\1eo</all>
+        </stem>
+    </rule>
+
+</verb>

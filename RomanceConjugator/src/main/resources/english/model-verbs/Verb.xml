@@ -1,0 +1,103 @@
+<verb>
+    <name>Root</name>
+    <summary>TODO</summary>
+    <infinitive>
+    	<all/>
+    </infinitive>
+
+	<!-- TENSES - MAIN FORM DEFINITIONS -->
+
+    <rule>
+    	<scope>
+	    	<tense>present</tense>
+	    	<tense>preterite</tense>
+	    </scope>
+		<forms>
+			<all/>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>participle present</tense>
+			<tense>participle past</tense>
+		</scope>
+		<forms>
+			<first/>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>present continuous</tense>
+		</scope>
+		<target>
+			<tense>participle present</tense>
+		</target>
+		<forms>
+			<all>first</all>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>present continuous</tense>
+		</scope>
+		<target>
+			<tense>present</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<!-- SEGMENT DEFINITIONS -->
+
+	<rule>
+		<tense>present</tense>
+		<tense>preterite</tense>
+		<stem>
+			<all>0</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<mood>participle</mood>
+		<stem>
+			<first>0</first>
+		</stem>
+	</rule>
+
+    <rule>
+       	<tense>present</tense>
+      	<suffix>
+            <singular>
+                <first/>
+                <third>s</third>
+        	</singular>
+        	<ywt/>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+      	<suffix>
+            <first>ed</first>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<suffix>
+       		<all>ed</all>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle present</tense>
+      	<suffix>
+            <first>ing</first>
+        </suffix>
+    </rule>
+
+</verb>

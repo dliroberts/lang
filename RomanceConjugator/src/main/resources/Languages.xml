@@ -1,0 +1,16 @@
+<languages>
+	<language>
+		<identifier>english</identifier>
+		<native-name>English</native-name>
+		<reflexive-verbs>
+				<pattern>([^ ]+) oneself</pattern>
+		</reflexive-verbs>
+	</language>
+	<language>
+		<identifier>french</identifier>
+		<native-name>Français</native-name>
+		<reflexive-verbs>
+			<pattern>se ([^ ]+)</pattern>
+		</reflexive-verbs>
+	</language>
+</languages>

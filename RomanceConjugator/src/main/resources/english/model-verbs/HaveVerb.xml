@@ -1,0 +1,40 @@
+<verb>
+    <name>Have</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<full-name>have</full-name>
+    </infinitive>
+
+	<!-- TENSES - MAIN FORM DEFINITIONS -->
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<first>have</first>
+				<third>ha</third>
+			</singular>
+        	<ywt>have</ywt>
+		</stem>
+	</rule>
+
+    <rule>
+       	<tense>participle present</tense>
+      	<stem>
+            <first>hav</first>
+        </stem>
+    </rule>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<tense>participle past</tense>
+       	<stem>
+       		<all/>
+       	</stem>
+      	<suffix>
+            <all>had</all>
+    	</suffix>
+    </rule>
+
+</verb>

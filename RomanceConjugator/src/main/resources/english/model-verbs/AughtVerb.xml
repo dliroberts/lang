@@ -1,0 +1,39 @@
+<verb>
+    <name>Aught</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<pattern>(c)atch</pattern>
+    	<pattern>(t)each</pattern>
+    </infinitive>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<stem>
+       		<all>\1aught</all>
+       	</stem>
+      	<suffix>
+            <all/>
+    	</suffix>
+    </rule>
+
+    <rule>
+    	<tense>present</tense>
+    	<infix>
+    		<singular>
+    			<third>e</third>
+    		</singular>
+    	</infix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<stem>
+       		<first>\1aught</first>
+       	</stem>
+      	<suffix>
+            <first/>
+    	</suffix>
+    </rule>
+
+</verb>

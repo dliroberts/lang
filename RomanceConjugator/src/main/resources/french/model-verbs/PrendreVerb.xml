@@ -1,0 +1,42 @@
+<verb>
+    <name>Prendre</name>
+    <parent>XIsPastParticipleSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>prendre</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<plural>
+				<all>-3</all>
+			</plural>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-5</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-5</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<plural>
+				<third>n</third>
+			</plural>
+		</infix>
+	</rule>
+
+</verb>

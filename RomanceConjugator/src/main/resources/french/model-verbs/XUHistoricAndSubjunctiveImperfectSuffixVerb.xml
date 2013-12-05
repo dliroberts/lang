@@ -1,0 +1,14 @@
+<verb>
+    <name>XUHistoricAndSubjunctiveImperfectSuffix</name>
+    <parent>XGenericRule</parent>
+    <summary>Subjunctive imperfect infixes (u/û) and historic suffixes (u/û...).</summary>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <subj1>u</subj1>
+           	<subj2>û</subj2>
+        </infix>
+    </rule>
+
+</verb>

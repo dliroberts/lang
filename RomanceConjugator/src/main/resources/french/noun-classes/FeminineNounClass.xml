@@ -1,0 +1,22 @@
+<noun-class>
+	<name>feminine</name>
+	<abbreviation>f</abbreviation>
+	<sequence>2</sequence>
+	<suffix>arde</suffix>
+	<suffix>ion</suffix>
+	<suffix>ère</suffix>
+	<suffix>tte</suffix>
+	<suffix>lle</suffix>
+	<suffix>ure</suffix>
+	<suffix>nte</suffix>
+	<suffix>ade</suffix>
+	<suffix>ive</suffix>
+	<suffix>nde</suffix>
+	<suffix>ie</suffix>
+	<suffix>se</suffix>
+	<suffix>ne</suffix>
+	<suffix>té</suffix>
+	<suffix>ce</suffix>
+	<suffix>ée</suffix>
+<!--	<suffix>eur</suffix>--><!-- abstract qualities and emotions with exceptions (see also masculine -eur) -->
+</noun-class>

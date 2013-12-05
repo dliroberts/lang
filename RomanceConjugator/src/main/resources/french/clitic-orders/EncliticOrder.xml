@@ -1,0 +1,13 @@
+<order>
+	<name>enclitic</name>
+	<predicate>
+		<if>isPositive() and getMood() == imperative</if>
+	</predicate>
+	<clitic-order>
+		<unconditional>{verb}</unconditional>
+		<conditional>
+			<if>isReflexive()</if>
+			<then>-{disjunctive_pronoun}</then>
+		</conditional>
+	</clitic-order>
+</order>

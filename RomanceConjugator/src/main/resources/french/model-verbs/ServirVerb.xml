@@ -1,0 +1,9 @@
+<verb>
+    <name>Servir</name>
+    <parent>XShortPresentSingularStem</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>servir</suffix>
+    </infinitive>
+
+</verb>

@@ -1,0 +1,41 @@
+<verb>
+    <name>Vaincre</name>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>vaincre</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+                <all>qu<parent/></all>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <plural>
+                <all>-3</all>
+            </plural>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <all>qu<parent/></all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+            <all>-3</all>
+        </stem>
+    </rule>
+
+</verb>

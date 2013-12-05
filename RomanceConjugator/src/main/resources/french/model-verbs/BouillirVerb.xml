@@ -1,0 +1,9 @@
+<verb>
+    <name>Boillir</name>
+    <parent>XShorterPresentSingularStem</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>bouillir</suffix>
+    </infinitive>
+
+</verb>

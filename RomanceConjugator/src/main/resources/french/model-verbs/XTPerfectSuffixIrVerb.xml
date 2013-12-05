@@ -1,0 +1,11 @@
+<verb>
+    <name>XTPerfectSuffix</name>
+    <parent>XGenericRule</parent>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>t</first>
+        </suffix>
+    </rule>
+</verb>

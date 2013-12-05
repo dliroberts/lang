@@ -1,0 +1,33 @@
+<verb>
+    <name>Déchoir</name>
+    <parent>XChoir</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<full-name>déchoir</full-name>
+    </infinitive>
+
+	<rule>
+		<scope>
+			<mood>imperative</mood>
+			<tense>imperfect</tense>
+			<tense>participle present</tense>
+			<tense>gerund present</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>ir</all>
+		</infix>
+	</rule>
+
+</verb>

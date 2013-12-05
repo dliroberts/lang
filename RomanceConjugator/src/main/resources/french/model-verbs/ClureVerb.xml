@@ -1,0 +1,25 @@
+<verb>
+    <name>Clure</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>clure</suffix>
+    </infinitive>
+	<summary>No u in the stem for perfect, historic and subjunctive imperfect.</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+</verb>

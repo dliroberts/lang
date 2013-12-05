@@ -1,0 +1,31 @@
+<verb>
+    <name>Ger</name>
+    <parent>Er</parent>
+    <infinitive>
+        <suffix>ger</suffix>
+    </infinitive>
+    <summary>An extra e is inserted after the g if an a or o follows.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+                <first>e</first>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <singular>
+                <all>e<parent/></all>
+            </singular>
+            <plural>
+                <first>e<parent/></first>
+                <second>e<parent/></second>
+            </plural>
+        </infix>
+    </rule>
+
+</verb>

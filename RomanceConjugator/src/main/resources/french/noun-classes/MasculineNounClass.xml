@@ -1,0 +1,37 @@
+<noun-class>
+	<name>masculine</name>
+	<abbreviation>m</abbreviation>
+	<sequence>1</sequence>
+	<suffix>logue</suffix>
+	<suffix>aire</suffix>
+	<suffix>ste</suffix>
+	<suffix>tre</suffix>
+	<suffix>ton</suffix>
+	<suffix>ron</suffix>
+	<suffix>lon</suffix>
+	<suffix>phe</suffix>
+	<suffix>ble</suffix>
+	<suffix>lé</suffix>
+	<suffix>né</suffix>
+	<suffix>an</suffix>
+	<suffix>ge</suffix>
+	<suffix>me</suffix>
+	<suffix>in</suffix>
+	<suffix>en</suffix>
+	<suffix>r</suffix>
+	<suffix>t</suffix>
+	<suffix>l</suffix>
+	<suffix>u</suffix>
+	<suffix>d</suffix>
+	<suffix>i</suffix>
+	<suffix>m</suffix>
+	<suffix>o</suffix>
+	<suffix>f</suffix>
+	<suffix>c</suffix>
+	<suffix>g</suffix>
+	<suffix>h</suffix>
+	<suffix>k</suffix>
+	<suffix>y</suffix>
+<!--	<suffix>ste</suffix>--><!-- names for people like un(e) artiste un(e) nudiste etc. -->
+<!--	<suffix>eur</suffix>--><!-- for names of professions and mechanical/scientific things (see also feminine -eur) -->
+</noun-class>

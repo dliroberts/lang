@@ -1,0 +1,547 @@
+<verb>
+    <name>Root</name>
+    <summary>Suffixes for future, imperfect, historic, subjunctive present and subjunctive imperfect, and the plural forms of the present.</summary>
+
+	<!-- TENSES - MAIN FORM DEFINITIONS -->
+
+    <rule>
+        <scope>
+			<tense>conditional perfect, 2nd form</tense>
+            <tense>perfect</tense>
+            <tense>subjunctive pluperfect</tense>
+            <tense>subjunctive perfect</tense>
+            <tense>pluperfect</tense>
+            <tense>historic pluperfect</tense>
+            <tense>future perfect</tense>
+            <tense>conditional perfect</tense>
+        </scope>
+        <target>
+            <tense>participle perfect</tense>
+        </target>
+        <forms>
+        	<all>first</all>
+        </forms>
+    </rule>
+
+    <rule>
+    	<scope>
+	    	<tense>conditional</tense>
+	    	<tense>present</tense>
+	    	<tense>historic</tense>
+	    	<tense>future</tense>
+	    </scope>
+		<forms>
+			<all/>
+		</forms>
+	</rule>
+
+    <rule>
+        <scope>
+            <tense>imperative present</tense>
+        </scope>
+        <target>
+            <tense>present</tense>
+        </target>
+        <forms>
+            <singular>
+                <second>first person singular</second>
+            </singular>
+            <plural>
+                <first/>
+                <second/>
+            </plural>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>imperative perfect</tense>
+        </scope>
+        <target>
+            <tense>participle perfect</tense>
+        </target>
+        <forms>
+        	<singular>
+        		<second>first</second>
+        	</singular>
+        	<plural>
+        		<first>first</first>
+        		<second>first</second>
+        	</plural>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>conditional</tense>
+            <segment>stem</segment>
+            <segment>infix</segment>
+        </scope>
+        <target>
+            <tense>future</tense>
+        </target>
+        <forms>
+            <all/>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>conditional</tense>
+            <segment>suffix</segment>
+        </scope>
+        <target>
+            <tense>imperfect</tense>
+        </target>
+        <forms>
+            <all/>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>subjunctive imperfect</tense>
+            <segment>stem</segment>
+        </scope>
+        <target>
+            <tense>historic</tense>
+        </target>
+        <forms>
+            <all/>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>subjunctive imperfect</tense>
+            <segment>infix</segment>
+        </scope>
+        <target>
+            <tense>historic</tense>
+        </target>
+        <forms>
+            <singular>
+            	<first/>
+            	<second/>
+            	<third>first person plural</third>
+            </singular>
+            <plural>
+            	<all>first person singular</all>
+            </plural>
+        </forms>
+    </rule>
+
+	<rule>
+		<scope>
+			<tense>gerund present</tense>
+		</scope>
+		<target>
+			<tense>participle present</tense>
+		</target>
+		<forms>
+			<first/>
+		</forms>
+	</rule>
+
+    <rule>
+        <scope>
+            <tense>participle present</tense>
+        </scope>
+        <target>
+            <tense>imperfect</tense>
+            <segment>stem</segment>
+            <segment>infix</segment>
+        </target>
+        <forms>
+        	<first>first person singular</first>
+        </forms>
+    </rule>
+
+    <rule>
+        <tense>participle present</tense>
+        <suffix>
+        	<first>ant</first>
+        </suffix>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>infinitive present</tense>
+        </scope>
+        <forms>
+        	<first/>
+        </forms>
+    </rule>
+
+	<rule>
+        <tense>infinitive present</tense>
+        <stem>
+        	<first>0</first> <!-- Use the whole infinitive -->
+        </stem>
+        <suffix>
+            <first/>
+        </suffix>
+        <infix>
+        	<first/>
+        </infix>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>participle present</tense>
+        </scope>
+        <target>
+            <tense>imperfect</tense>
+        </target>
+        <forms>
+        	<first>first person singular</first>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>infinitive perfect</tense>
+            <tense>gerund perfect</tense>
+        </scope>
+        <target>
+            <tense>participle perfect</tense>
+        </target>
+        <forms>
+        	<first/>
+        </forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>gerund perfect</tense>
+        </scope>
+        <target>
+            <tense>gerund present</tense>
+        </target>
+        <auxiliary-forms>
+        	<first/>
+        </auxiliary-forms>
+    </rule>
+
+    <rule>
+        <scope>
+            <tense>participle perfect</tense>
+        </scope>
+        <forms>
+        	<first/>
+			<second>first</second>
+        </forms>
+    </rule>
+
+	<rule>
+		<scope>
+			<tense>imperfect</tense>
+			<segment>stem</segment>
+			<segment>infix</segment>
+		</scope>
+		<target>
+			<tense>present</tense>
+		</target>
+		<forms>
+			<singular>
+				<all>first person plural</all>
+			</singular>
+			<plural>
+				<first>second person plural</first>
+				<second>second person plural</second>
+				<third>first person plural</third>
+			</plural>
+		</forms>
+	</rule>
+
+    <rule>
+    	<scope>
+	    	<tense>subjunctive present</tense>
+	    	<segment>stem</segment>
+	    	<segment>infix</segment>
+	    </scope>
+	    <target>
+	    	<tense>present</tense>
+	    </target>
+		<forms>
+			<singular>
+				<all>third person plural</all>
+			</singular>
+			<plural>
+				<first>second person plural</first>
+				<second>second person plural</second>
+				<third>third person plural</third>
+			</plural>
+			<!--<all>first person plural</all>-->
+		</forms>
+	</rule>
+
+    <!-- AUXILIARY DEFINITIONS -->
+
+	<rule>
+		<scope>
+			<tense>perfect</tense>
+		</scope>
+		<target>
+			<tense>present</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>pluperfect</tense>
+		</scope>
+		<target>
+			<tense>imperfect</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>historic pluperfect</tense>
+		</scope>
+		<target>
+			<tense>historic</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>future perfect</tense>
+		</scope>
+		<target>
+			<tense>future</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>conditional perfect</tense>
+		</scope>
+		<target>
+			<tense>conditional</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>subjunctive pluperfect</tense>
+		</scope>
+		<target>
+			<tense>subjunctive imperfect</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>conditional perfect, 2nd form</tense>
+			<segment>stem</segment>
+			<segment>infix</segment>
+			<segment>suffix</segment>
+		</scope>
+		<target>
+			<tense>subjunctive imperfect</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>subjunctive perfect</tense>
+		</scope>
+		<target>
+			<tense>subjunctive present</tense>
+		</target>
+		<auxiliary-forms>
+			<all/>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>imperative perfect</tense>
+		</scope>
+		<target>
+			<tense>imperative present</tense>
+		</target>
+		<auxiliary-forms>
+			<singular>
+				<second/>
+			</singular>
+			<plural>
+				<first/>
+				<second/>
+			</plural>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>participle perfect</tense>
+		</scope>
+		<target>
+			<tense>participle present</tense>
+		</target>
+		<auxiliary-forms>
+			<second>first</second>
+		</auxiliary-forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>infinitive perfect</tense>
+		</scope>
+		<target>
+			<tense>infinitive present</tense>
+		</target>
+		<auxiliary-forms>
+			<first/>
+		</auxiliary-forms>
+	</rule>
+
+	<!-- SEGMENT DEFINITIONS -->
+
+    <rule>
+		<tense>historic</tense>
+		<suffix>
+	        <singular>
+	            <first>s</first>
+	            <second>s</second>
+	            <third>t</third>
+	        </singular>
+	        <plural>
+	            <first>mes</first>
+	            <second>tes</second>
+	            <third>rent</third>
+	        </plural>
+	    </suffix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <tense>historic</tense>
+        <stem>
+            <all>-2</all>
+        </stem>
+    </rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+    	<stem>
+        	<first>-2</first>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <plural>
+                <first>ons</first>
+                <second>ez</second>
+                <third>ent</third>
+            </plural>
+        </suffix>
+    </rule>
+
+	<rule>
+        <tense>future</tense>
+        <suffix>
+            <singular>
+                <first>ai</first>
+                <second>as</second>
+                <third>a</third>
+            </singular>
+            <plural>
+                <first>ons</first>
+                <second>ez</second>
+                <third>ont</third>
+            </plural>
+        </suffix>
+    </rule>
+
+	<rule>
+        <tense>imperfect</tense>
+        <suffix>
+            <singular>
+                <first>ais</first>
+                <second>ais</second>
+                <third>ait</third>
+            </singular>
+            <plural>
+                <first>ions</first>
+                <second>iez</second>
+                <third>aient</third>
+            </plural>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <suffix>
+            <singular>
+                <first>e</first>
+                <second>es</second>
+                <third>e</third>
+            </singular>
+            <plural>
+                <first>ions</first>
+                <second>iez</second>
+                <third>ent</third>
+            </plural>
+        </suffix>
+    </rule>
+
+    <rule>
+       	<tense>subjunctive imperfect</tense>
+      	<suffix>
+            <singular>
+                <first>sse</first>
+                <second>sses</second>
+                <third>t</third>
+        	</singular>
+        	<plural>
+        	    <first>ssions</first>
+        	    <second>ssiez</second>
+        	    <third>ssent</third>
+        	</plural>
+    	</suffix>
+    </rule>
+
+	<rule>
+		<tense>gerund present</tense>
+		<prefix>
+			<first>en </first>
+		</prefix>
+	</rule>
+
+	<rule>
+		<tense>subjunctive present</tense>
+		<tense>subjunctive imperfect</tense>
+		<prefix>
+	    	<first>que </first>
+            <second>que </second>
+            <third>qu'</third>
+    	</prefix>
+    </rule>
+
+</verb>

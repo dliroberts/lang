@@ -1,0 +1,15 @@
+<verb>
+    <name>Cuire</name>
+    <parent>Confire</parent>
+    <infinitive>
+    	<pattern>(.*cui)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<infix>
+			<all>is<parent/></all>
+		</infix>
+	</rule>
+</verb>

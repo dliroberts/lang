@@ -1,0 +1,16 @@
+<verb>
+    <name>XOuvoir</name>
+    <parent>X_voir</parent>
+    <infinitive>
+    	<suffix>ouvoir</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+	        <all>-4</all>
+        </stem>
+    </rule>
+
+</verb>

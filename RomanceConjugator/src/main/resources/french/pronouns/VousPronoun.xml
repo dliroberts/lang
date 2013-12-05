@@ -1,0 +1,12 @@
+<pronoun>
+	<label>vous</label>
+    <applicability>
+		<multiplicity>plural</multiplicity>
+		<person>second</person>
+		<subject/>
+		<reflexive/>
+		<direct-object/>
+		<indirect-object/>
+		<disjunctive/>
+	</applicability>
+</pronoun>

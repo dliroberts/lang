@@ -1,0 +1,5 @@
+<verb>
+    <name>XGenericRule</name>
+    <parent>Root</parent>
+	<summary>All rules that are common to multiple verb classes (er/ir/re) inherit from this.</summary>
+</verb>

@@ -1,0 +1,18 @@
+<verb>
+    <name>Ttre</name>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>ttre</suffix>
+    </infinitive>
+    <summary>Single t in the singular present.</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<all>-3</all>
+			</singular>
+		</stem>
+	</rule>
+
+</verb>

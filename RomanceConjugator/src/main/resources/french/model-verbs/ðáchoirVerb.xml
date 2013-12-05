@@ -1,0 +1,30 @@
+<verb>
+    <name>Échoir</name>
+    <parent>XChoir</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<full-name>échoir</full-name>
+    </infinitive>
+
+	<rule>
+		<scope>
+			<mood>indicative</mood>
+			<mood>conditional</mood>
+			<mood>subjunctive</mood>
+		</scope>
+		<target>
+			<tense><parent/></tense>
+		</target>
+		<forms>
+			<third><parent/></third>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<mood>imperative</mood>
+		</scope>
+		<forms/>
+	</rule>
+
+</verb>

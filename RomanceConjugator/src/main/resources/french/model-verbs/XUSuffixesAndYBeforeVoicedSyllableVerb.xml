@@ -1,0 +1,6 @@
+<verb>
+    <name>XUParticiplePerfectSuffixAndShortPresentAndYBeforeVoicedSyllable</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XYBeforeVoicedSyllable</parent>
+</verb>

@@ -1,0 +1,17 @@
+<verb>
+    <name>Aire</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>aire</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+    </rule>
+
+</verb>

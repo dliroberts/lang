@@ -1,0 +1,32 @@
+<verb>
+    <name>Oire</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>oire</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-4</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-4</first>
+		</stem>
+	</rule>
+
+</verb>

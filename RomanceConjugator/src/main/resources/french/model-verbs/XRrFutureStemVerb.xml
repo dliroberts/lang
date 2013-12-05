@@ -1,0 +1,12 @@
+<verb>
+    <name>XRrFutureStem</name>
+    <parent>XGenericRule</parent>
+    <summary>For future tense stems without the final i, and a double r instead.</summary>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>rr</all>
+        </infix>
+    </rule>
+</verb>

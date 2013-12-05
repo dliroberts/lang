@@ -1,0 +1,34 @@
+<verb>
+    <name>Mourir</name>
+    <parent>XOurir</parent>
+    <infinitive>
+    	<suffix>mourir</suffix>
+    </infinitive>
+    <summary>Perfect suffix (ort); infixes for present and subjunctive present; and the last 5 letters of the
+    infinitive stripped off the stem in the perfect, and much of the present/subjunctive present.</summary>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+           	<first>-5</first>
+        </stem>
+        <suffix>
+			<first>ort</first>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+			<subj1>eur</subj1>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+			<subj1>-5</subj1>
+        </stem>
+    </rule>
+
+</verb>

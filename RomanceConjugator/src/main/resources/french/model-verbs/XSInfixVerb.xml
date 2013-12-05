@@ -1,0 +1,25 @@
+<verb>
+    <name>XSInfix</name>
+    <parent>XSInfixImperfectAndSubjunctivePresent</parent>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+			<all>s<parent/></all>
+        </infix>
+        <stem>
+			<all>\1</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <infix>
+			<first>s</first>
+        </infix>
+        <stem>
+			<first>\1</first>
+        </stem>
+    </rule>
+</verb>

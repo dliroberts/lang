@@ -1,0 +1,32 @@
+<verb>
+    <name>Ought</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<pattern>(br)ing</pattern>
+    	<pattern>(b)uy</pattern>
+    	<pattern>(s)eek</pattern>
+    	<pattern>(th)ink</pattern>
+    </infinitive>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<stem>
+       		<all>\1ought</all>
+       	</stem>
+      	<suffix>
+            <all/>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<stem>
+       		<first>\1ought</first>
+       	</stem>
+      	<suffix>
+            <first/>
+    	</suffix>
+    </rule>
+
+</verb>

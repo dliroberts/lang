@@ -1,0 +1,15 @@
+<verb>
+    <name>Eillir</name>
+    <parent>Aillir</parent>
+    <infinitive>
+    	<suffix>eillir</suffix>
+    </infinitive>
+    <summary>Future tense infix is er, not ir.</summary>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>er</all>
+        </infix>
+    </rule>
+</verb>

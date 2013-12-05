@@ -1,0 +1,16 @@
+<verb>
+    <name>EeOo_</name>
+    <parent>Ea_</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<pattern>([^aeiou]+)(ee|oo)([^aeiou])e</pattern>
+    </infinitive>
+
+    <rule>
+       	<tense>participle present</tense>
+       	<stem>
+       		<first>-1</first>
+       	</stem>
+    </rule>
+
+</verb>

@@ -1,0 +1,37 @@
+<verb>
+    <name>Ir</name>
+    <parent>XIHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XIParticiplePerfectSuffix</parent>
+    <parent>Root</parent>
+    <infinitive>
+        <suffix>ir</suffix>
+    </infinitive>
+    <summary>Infix (iss) in imperfect, subjunctive present and singular present; suffixes for perfect (i).</summary>
+
+    <rule>
+    	<tense>present</tense>
+        <suffix>
+            <singular>
+                <first>is</first>
+                <second>is</second>
+                <third>it</third>
+            </singular>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+		        <all>iss</all>
+		    </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+		    <all>ir</all>
+        </infix>
+    </rule>
+</verb>

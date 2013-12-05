@@ -1,0 +1,20 @@
+<verb>
+    <name>Suivre</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XIParticiplePerfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>suivre</suffix>
+    </infinitive>
+    <summary>No v in the present singular.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <singular>
+                <all>-3</all>
+            </singular>
+        </stem>
+    </rule>
+
+</verb>

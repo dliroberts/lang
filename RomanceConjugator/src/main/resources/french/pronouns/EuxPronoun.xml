@@ -1,0 +1,9 @@
+<pronoun>
+	<label>eux</label>
+	<gender>masculine</gender>
+    <applicability>
+		<multiplicity>plural</multiplicity>
+	    <person>third</person>
+	    <disjunctive/>
+	</applicability>
+</pronoun>

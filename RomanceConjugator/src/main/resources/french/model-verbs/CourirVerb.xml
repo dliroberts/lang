@@ -1,0 +1,8 @@
+<verb>
+    <name>Courir</name>
+    <parent>XOurir</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <infinitive>
+    	<suffix>courir</suffix>
+    </infinitive>
+</verb>

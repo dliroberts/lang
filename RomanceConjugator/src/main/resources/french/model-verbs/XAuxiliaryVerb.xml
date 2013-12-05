@@ -1,0 +1,81 @@
+<verb>
+    <name>XAuxiliary</name>
+    <parent>Root</parent>
+    <summary>Historic (u/û...) and subjunctive present suffixes; subjunctive imperfect infixes (u/û).</summary>
+
+    <rule>
+    	<scope>
+	    	<tense>imperative present</tense>
+	    	<segment>stem</segment>
+	    	<segment>infix</segment>
+	    	<segment>suffix</segment>
+	    </scope>
+    	<target>
+    		<tense>subjunctive present</tense>
+    	</target>
+    	<forms>
+            <singular>
+                <second><parent/></second>
+            </singular>
+            <plural>
+                <first><parent/></first>
+                <second><parent/></second>
+            </plural>
+    	</forms>
+    </rule>
+
+    <rule>
+    	<scope>
+	    	<tense>imperative perfect</tense>
+	    </scope>
+    	<target>
+    		<tense>participle perfect</tense>
+    	</target>
+    	<forms>
+            <singular>
+                <second><parent/></second>
+            </singular>
+            <plural>
+                <first><parent/></first>
+                <second><parent/></second>
+            </plural>
+    	</forms>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <all />
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+           <all />
+        </infix>
+    </rule>
+
+    <rule>
+		<tense>historic</tense>
+		<infix>
+	        <subj1>u</subj1>
+	        <subj2>û</subj2>
+	    </infix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <suffix>
+			<singular>
+    	        <third>it</third>
+   	        </singular>
+   	        <plural>
+    	        <first>yons</first>
+    	        <second>yez</second>
+    	        <third>ient</third>
+   	        </plural>
+        </suffix>
+    </rule>
+
+</verb>

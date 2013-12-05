@@ -1,0 +1,16 @@
+<verb>
+    <name>XShortPresentSuffix</name>
+    <parent>XGenericRule</parent>
+    <summary>Shorter set of present singular suffixes (s/s/t).</summary>
+
+    <rule>
+        <tense>present</tense>
+    	<suffix>
+    	    <singular>
+    	        <first>s</first>
+    	        <second>s</second>
+    	        <third>t</third>
+    	    </singular>
+    	 </suffix>
+    </rule>
+</verb>

@@ -1,0 +1,23 @@
+<verb>
+    <name>_eter</name>
+    <parent>Er</parent>
+    <infinitive>
+        <pattern>(.*(ll|qu|j))eter</pattern>
+    </infinitive>
+	<summary>The t is doubled up before a syllable starting with a silent e.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <subj1>t</subj1>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>t<parent /></all>
+        </infix>
+    </rule>
+
+</verb>

@@ -1,0 +1,14 @@
+<verb>
+    <name>XIHistoricAndSubjunctiveImperfectSuffix</name>
+    <parent>XGenericRule</parent>
+    <summary>Subjunctive imperfect infixes (i/î) and historic suffixes (i/î...).</summary>
+
+    <rule>
+    	<tense>historic</tense>
+    	<infix>
+			<subj1>i</subj1>
+            <subj2>î</subj2>
+        </infix>
+    </rule>
+
+</verb>

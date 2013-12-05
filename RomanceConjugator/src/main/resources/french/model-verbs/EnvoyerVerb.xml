@@ -1,0 +1,18 @@
+<verb>
+    <name>Envoyer</name>
+    <parent>Yer</parent>
+    <infinitive>
+        <suffix>envoyer</suffix>
+    </infinitive>
+    <summary>Irregular future stem (enverr).</summary>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+        <infix>
+            <all>err</all>
+        </infix>
+    </rule>
+</verb>

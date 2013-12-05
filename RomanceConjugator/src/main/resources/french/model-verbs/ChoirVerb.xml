@@ -1,0 +1,31 @@
+<verb>
+    <name>Choir</name>
+    <parent>XChoir</parent>
+    <infinitive>
+    	<full-name>choir</full-name>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>imperfect</tense>
+			<tense>imperative present</tense>
+			<tense>subjunctive present</tense>
+			<tense>participle present</tense>
+			<tense>gerund present</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>subjunctive imperfect</tense>
+		</scope>
+		<forms>
+			<singular>
+				<third><parent/></third>
+			</singular>
+		</forms>
+	</rule>
+
+</verb>

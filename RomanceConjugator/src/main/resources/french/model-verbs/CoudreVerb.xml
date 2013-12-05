@@ -1,0 +1,9 @@
+<verb>
+    <name>Coudre</name>
+    <parent>XSInfix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<pattern>(.*cou)dre</pattern>
+    </infinitive>
+
+</verb>

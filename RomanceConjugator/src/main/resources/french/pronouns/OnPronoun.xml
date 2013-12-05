@@ -1,0 +1,9 @@
+<pronoun>
+	<label>on</label>
+	<gender>neuter</gender>
+	<applicability>
+		<multiplicity>singular</multiplicity>
+		<person>third</person>
+		<subject/>
+	</applicability>
+</pronoun>

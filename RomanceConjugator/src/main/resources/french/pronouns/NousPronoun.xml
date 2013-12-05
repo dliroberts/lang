@@ -1,0 +1,12 @@
+<pronoun>
+	<label>nous</label>
+    <applicability>
+	    <multiplicity>plural</multiplicity>
+	    <person>first</person>
+	    <subject/>
+	    <reflexive/>
+	    <direct-object/>
+	    <indirect-object/>
+	    <disjunctive/>
+	</applicability>
+</pronoun>

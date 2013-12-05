@@ -1,0 +1,24 @@
+<verb>
+    <name>Rire</name>
+    <parent>XIParticiplePerfectSuffix</parent>
+    <parent>Ire</parent>
+    <infinitive>
+    	<pattern>(.*ri)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+</verb>

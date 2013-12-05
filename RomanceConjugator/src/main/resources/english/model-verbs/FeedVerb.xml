@@ -1,0 +1,29 @@
+<verb>
+    <name>Feed</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<full-name>feed</full-name>
+    </infinitive>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<stem>
+       		<all>fed</all>
+       	</stem>
+      	<suffix>
+            <all/>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<stem>
+       		<first>def</first>
+       	</stem>
+      	<suffix>
+            <first/>
+    	</suffix>
+    </rule>
+
+</verb>

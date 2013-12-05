@@ -1,0 +1,26 @@
+<verb>
+    <name>Traire</name>
+    <parent>XTPerfectSuffix</parent>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>traire</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+    <rule>
+    	<scope>
+	        <tense>subjunctive imperfect</tense>
+	        <tense>historic</tense>
+	    </scope>
+        <forms/>
+    </rule>
+
+</verb>

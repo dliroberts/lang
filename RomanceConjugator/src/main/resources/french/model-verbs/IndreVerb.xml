@@ -1,0 +1,53 @@
+<verb>
+    <name>Indre</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XTPerfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>indre</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<infix>
+			<all>gn<parent/></all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-4</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<plural>
+				<all>gn<parent/></all>
+			</plural>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<all>-3</all>
+			</singular>
+			<plural>
+				<all>-4</all>
+			</plural>
+		</stem>
+	</rule>
+
+</verb>

@@ -1,0 +1,45 @@
+<verb>
+    <name>Asseoir</name>
+    <parent>Voir</parent>
+    <infinitive>
+    	<pattern>(.*ass)e?oir</pattern>
+    </infinitive>
+    <summary>The e in the infinitive is optional, but is not present in conjugated forms. Infix for future (ir); suffix for perfect (is).</summary>
+
+    <rule>
+        <tense>future</tense>
+        <tense>present</tense>
+        <stem>
+        	<all>\1o</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+        	<all>\1</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+        	<first>\1</first>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+        	<all>ir</all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+        	<first>is</first>
+        </suffix>
+    </rule>
+
+</verb>

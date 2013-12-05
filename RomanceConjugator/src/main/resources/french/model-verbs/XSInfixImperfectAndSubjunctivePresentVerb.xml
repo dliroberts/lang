@@ -1,0 +1,24 @@
+<verb>
+    <name>XSInfixImperfectAndSubjunctivePresent</name>
+    <parent>Re</parent>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+                <all>s</all>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <plural>
+                <all>\1</all>
+            </plural>
+        </stem>
+    </rule>
+
+</verb>

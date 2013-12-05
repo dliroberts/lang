@@ -1,0 +1,35 @@
+<order>
+	<name>proclitic</name>
+	<predicate>
+		<if>!isPositive() or getMood() != imperative</if>
+	</predicate>
+	<clitic-order>
+		<conditional>
+			<if>hasPrefix()</if>
+			<then>{prefix}</then>
+		</conditional>
+		<conditional>
+			<if>isPersonal() and getMood() != imperative</if>
+			<then>{subject_pronoun}</then>
+		</conditional>
+		<conditional>
+			<if>isNegative()</if>
+			<then>{negation_clitic}</then>
+		</conditional>
+		<conditional>
+			<if>isReflexive()</if>
+			<then>{reflexive_pronoun}</then>
+		</conditional>
+		<conditional>
+			<if>hasAuxiliary()</if>
+			<then>{auxiliary}</then>
+		</conditional>
+
+		<unconditional>{verb}</unconditional>
+
+		<conditional>
+			<if>isNegative()</if>
+			<then>{negation_adverb}</then>
+		</conditional>
+	</clitic-order>
+</order>

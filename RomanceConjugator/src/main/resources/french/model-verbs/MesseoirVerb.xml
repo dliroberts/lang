@@ -1,0 +1,16 @@
+<verb>
+    <name>Messeoir</name>
+    <parent>Seoir</parent>
+    <infinitive>
+    	<full-name>messeoir</full-name>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>participle perfect</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+</verb>

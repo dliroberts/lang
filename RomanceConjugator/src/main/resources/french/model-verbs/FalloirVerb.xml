@@ -1,0 +1,84 @@
+<verb>
+    <name>Falloir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XUxPresentSingularSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<pattern>falloir</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+    	<scope>
+	        <mood>indicative</mood>
+	        <mood>conditional</mood>
+	        <mood>subjunctive</mood>
+	    </scope>
+        <forms>
+            <singular>
+            	<third/>
+            </singular>
+        </forms>
+    </rule>
+
+    <rule>
+    	<scope>
+	        <mood>imperative</mood>
+	        <mood>gerund</mood>
+	    </scope>
+        <forms/>
+    </rule>
+
+    <rule>
+    	<scope>
+	        <tense>infinitive perfect</tense>
+	    </scope>
+        <forms/>
+    </rule>
+
+    <rule>
+    	<scope>
+	        <tense>participle present</tense>
+	    </scope>
+        <forms/>
+    </rule>
+
+	<rule>
+		<tense>present</tense>
+		<tense>future</tense>
+		<stem>
+			<all>-5</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>imperfect</tense>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>subjunctive present</tense>
+		<infix>
+			<all>ill</all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>udr</all>
+		</infix>
+	</rule>
+
+</verb>

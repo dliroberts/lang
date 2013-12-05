@@ -1,0 +1,25 @@
+<verb>
+    <name>Lire</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Ire</parent>
+    <parent>XSInfixImperfectAndSubjunctivePresent</parent>
+    <infinitive>
+    	<pattern>(.*li)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+</verb>

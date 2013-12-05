@@ -1,0 +1,30 @@
+<verb>
+    <name>XChoir</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-3</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>ir</all>
+		</infix>
+	</rule>
+
+</verb>

@@ -1,0 +1,8 @@
+<verb>
+    <name>Éger</name>
+    <parent>É_er</parent>
+    <parent>Ger</parent>
+    <infinitive>
+        <pattern>(.*)é(g)er</pattern>
+    </infinitive>
+</verb>

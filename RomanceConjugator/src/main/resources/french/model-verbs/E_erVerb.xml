@@ -1,0 +1,37 @@
+<verb>
+    <name>E_er</name>
+    <parent>Er</parent>
+    <infinitive>
+        <pattern>(.*)e([^aeiou]{1,2})er</pattern>
+    </infinitive>
+	<summary>The penultimate e turns into an è before a syllable starting with a silent e.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <subj1>\1è\2</subj1>
+            <subj2>\1e\2</subj2>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+            <all>\1e\2</all>
+        </stem>
+    </rule>
+
+    <rule>
+    	<tense>participle perfect</tense>
+        <stem>
+            <first>\1e\2</first>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+            <all>\1è\2</all>
+        </stem>
+    </rule>
+</verb>

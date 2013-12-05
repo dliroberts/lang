@@ -1,0 +1,12 @@
+<verb>
+    <name>XIParticiplePerfectSuffix</name>
+    <parent>XGenericRule</parent>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+	        <first>i</first>
+        </suffix>
+    </rule>
+
+</verb>

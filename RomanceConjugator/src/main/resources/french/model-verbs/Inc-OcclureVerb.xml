@@ -1,0 +1,8 @@
+<verb>
+    <name>IncOcclure</name>
+    <parent>XUsPerfectSuffix</parent>
+    <parent>Clure</parent>
+    <infinitive>
+        <pattern>(in|oc)clure</pattern>
+    </infinitive>
+</verb>

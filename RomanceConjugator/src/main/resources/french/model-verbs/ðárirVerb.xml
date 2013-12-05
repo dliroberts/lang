@@ -1,0 +1,65 @@
+<verb>
+    <name>Érir</name>
+    <parent>XNoIssIr</parent>
+    <parent>XErrFutureInfix</parent>
+    <infinitive>
+        <suffix>érir</suffix>
+    </infinitive>
+	<summary>Suffixes for perfect (is) and present; infixes for present, subjunctive present and subjunctive imperfect (ièr).</summary>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>is</first>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+                <first>iers</first>
+                <second>iers</second>
+                <third>iert</third>
+            </singular>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <tense>subjunctive present</tense>
+        <infix>
+            <plural>
+                <first>ér</first>
+                <second>ér</second>
+                <third>ièr</third>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+    	<tense>subjunctive present</tense>
+        <infix>
+            <singular>
+                <all>ièr</all>
+            </singular>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <tense>future</tense>
+        <tense>historic</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+            <first>-4</first>
+        </stem>
+    </rule>
+
+</verb>

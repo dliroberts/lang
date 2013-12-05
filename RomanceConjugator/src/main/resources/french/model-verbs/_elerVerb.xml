@@ -1,0 +1,29 @@
+<verb>
+    <name>_eler</name>
+    <parent>Er</parent>
+    <infinitive>
+        <pattern>(.*(p|nouv))eler</pattern>
+    </infinitive>
+	<summary>The l is doubled up before a syllable starting with a silent e.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <subj1>l</subj1>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <all>l<parent /></all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>l<parent /></all>
+        </infix>
+    </rule>
+</verb>

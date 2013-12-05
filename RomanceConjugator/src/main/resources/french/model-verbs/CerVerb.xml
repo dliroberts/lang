@@ -1,0 +1,61 @@
+<verb>
+    <name>Cer</name>
+    <parent>Er</parent>
+    <infinitive>
+        <suffix>cer</suffix>
+    </infinitive>
+	<summary>The c turns into a ç before an a or o.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <tense>historic</tense>
+        <tense>subjunctive present</tense>
+        <tense>future</tense>
+    	<stem>
+            <all>-3</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <singular>
+                <all>c</all>
+            </singular>
+            <plural>
+                <first>ç</first>
+                <second>c</second>
+                <third>c</third>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <singular>
+                <all>ç<parent/></all>
+            </singular>
+            <plural>
+                <first>ç<parent/></first>
+                <second>ç<parent/></second>
+                <third>c<parent/></third>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <infix>
+            <all>c</all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>c<parent /></all>
+        </infix>
+    </rule>
+
+</verb>

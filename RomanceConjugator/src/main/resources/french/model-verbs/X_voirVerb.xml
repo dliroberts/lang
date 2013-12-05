@@ -1,0 +1,30 @@
+<verb>
+    <name>X_voir</name>
+    <parent>X_oir</parent>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+	        <all>\1</all>
+        </stem>
+    </rule>
+
+	<rule>
+        <tense>participle perfect</tense>
+        <stem>
+	        <first>\1</first>
+        </stem>
+    </rule>
+
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+		    <plural>
+		    	<third>\1</third>
+		    </plural>
+        </stem>
+    </rule>
+
+</verb>

@@ -1,0 +1,9 @@
+<pronoun>
+	<label>je</label>
+	<elided-label>j'</elided-label>
+	<applicability>
+		<multiplicity>singular</multiplicity>
+		<person>first</person>
+		<subject/>
+	</applicability>
+</pronoun>

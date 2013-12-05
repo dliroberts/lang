@@ -1,0 +1,19 @@
+<verb>
+    <name>Vêtir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+        <suffix>vêtir</suffix>
+    </infinitive>
+
+    <rule>
+        <tense>present</tense>
+   	    <stem>
+       	    <singular>
+      	    	<third>-3</third>
+    	    </singular>
+   	    </stem>
+    </rule>
+
+</verb>

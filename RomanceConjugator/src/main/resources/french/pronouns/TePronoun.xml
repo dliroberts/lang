@@ -1,0 +1,11 @@
+<pronoun>
+	<label>te</label>
+	<elided-label>t'</elided-label>
+    <applicability>
+		<multiplicity>singular</multiplicity>
+	    <person>second</person>
+	    <reflexive/>
+	    <direct-object/>
+	    <indirect-object/>
+	</applicability>
+</pronoun>

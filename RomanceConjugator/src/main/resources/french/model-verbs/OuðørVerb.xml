@@ -1,0 +1,18 @@
+<verb>
+    <name>Ouïr</name>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>Ïr</parent>
+    <infinitive>
+        <suffix>ouïr</suffix>
+    </infinitive>
+	<summary>The u is omitted from the stem in the imperfect, present and subjunctive present.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <all>-3</all>
+        </stem>
+    </rule>
+
+</verb>

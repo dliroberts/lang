@@ -1,0 +1,40 @@
+<verb>
+    <name>Vivre</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<suffix>vivre</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <singular>
+                <all>-3</all>
+            </singular>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+            <all>-4</all>
+        </stem>
+        <infix>
+            <all>éc<parent/></all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+            <first>-4</first>
+        </stem>
+        <infix>
+            <first>éc</first>
+        </infix>
+    </rule>
+
+</verb>

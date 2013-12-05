@@ -1,0 +1,17 @@
+<verb>
+    <name>Faillir</name>
+    <parent>XUxPresentSingularSuffix</parent>
+    <parent>XShorterPresentSingularStem</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<full-name>faillir</full-name>
+    </infinitive>
+
+    <rule>
+    	<scope>
+	    	<mood>imperative</mood>
+	    </scope>
+    	<forms/>
+    </rule>
+
+</verb>

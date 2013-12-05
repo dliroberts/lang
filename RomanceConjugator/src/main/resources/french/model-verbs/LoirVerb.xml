@@ -1,0 +1,43 @@
+<verb>
+    <name>Loir</name>
+    <parent>XUxPresentSingularSuffix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>X_oir</parent>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <infix>
+        	<subj1>ill</subj1>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+		    <all>dr</all>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+		    <all>\1</all>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <stem>
+		    <all>-3</all>
+        </stem>
+    </rule>
+
+	<rule>
+        <tense>participle perfect</tense>
+        <stem>
+        	<first>-3</first>
+        </stem>
+	</rule>
+
+</verb>

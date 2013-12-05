@@ -1,0 +1,37 @@
+<verb>
+    <name>Boire</name>
+    <parent>Oire</parent>
+    <infinitive>
+        <suffix>boire</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<all>-4</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<singular>
+				<all>oi</all>
+			</singular>
+			<plural>
+				<first>uv</first>
+				<second>uv</second>
+				<third>oiv</third>
+			</plural>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>subjunctive present</tense>
+		<infix>
+			<subj1>oiv</subj1>
+		</infix>
+	</rule>
+
+</verb>

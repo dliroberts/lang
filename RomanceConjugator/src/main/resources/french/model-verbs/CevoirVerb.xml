@@ -1,0 +1,70 @@
+<verb>
+    <name>Cevoir</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>recevoir</suffix>
+    </infinitive>
+    <summary>Before an o or u, c becomes ç. The last 3 or 6 letters of the infinitive are dropped from the stem. Future stem (recevr).
+    Infixes (ço, çoiv) in the present and subjunctive present.</summary>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<subj1>-6</subj1>
+			<subj2>-3</subj2>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-6</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<infix>
+			<all>ç<parent/></all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<infix>
+			<first>ç</first>
+		</infix>
+		<stem>
+			<first>-6</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>r</all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<singular>
+				<all>ço</all>
+			</singular>
+			<plural>
+				<third>çoiv</third>
+			</plural>
+		</infix>
+	</rule>
+
+</verb>

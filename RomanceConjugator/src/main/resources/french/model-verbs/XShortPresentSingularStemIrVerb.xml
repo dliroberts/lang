@@ -1,0 +1,15 @@
+<verb>
+    <name>XShortPresentSingularStem</name>
+    <parent>XShortPresentSuffix</parent>
+	<summary>Present singular stems don't contain last letter.</summary>
+
+    <rule>
+        <tense>present</tense>
+       	<stem>
+      	    <singular>
+       	        <all>-3</all>
+       	    </singular>
+        </stem>
+    </rule>
+
+</verb>

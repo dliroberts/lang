@@ -1,0 +1,11 @@
+<pronoun-set>
+	<name>ywt</name>
+	<elements>
+		<singular>
+			<second/>
+		</singular>
+		<plural>
+			<all/>
+		</plural>
+	</elements>
+</pronoun-set>

@@ -1,0 +1,13 @@
+<verb>
+    <name>XOurir</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XRrFutureStem</parent>
+    <parent>XShortPresentSuffix</parent>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+	        <all>-3</all>
+        </stem>
+    </rule>
+</verb>

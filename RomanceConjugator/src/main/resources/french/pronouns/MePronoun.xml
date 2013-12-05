@@ -1,0 +1,11 @@
+<pronoun>
+	<label>me</label>
+	<elided-label>m'</elided-label>
+    <applicability>
+		<multiplicity>singular</multiplicity>
+	    <person>first</person>
+	    <reflexive/>
+	    <direct-object/>
+	    <indirect-object/>
+	</applicability>
+</pronoun>

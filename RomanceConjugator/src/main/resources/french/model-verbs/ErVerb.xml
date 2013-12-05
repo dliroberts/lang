@@ -1,0 +1,52 @@
+<verb>
+    <name>Er</name>
+    <parent>Root</parent>
+    <parent>XÉParticiplePerfectSuffix</parent>
+    <summary>Suffixes for present singular and historic; infixes for historic (a/â/è) and future (er).</summary>
+    <infinitive>
+        <suffix>er</suffix>
+    </infinitive>
+
+    <rule>
+        <tense>historic</tense>
+        <suffix>
+            <singular>
+                <first>i</first>
+                <third/>
+            </singular>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>historic</tense>
+        <infix>
+            <singular>
+                <all>a</all>
+            </singular>
+            <plural>
+                <first>â</first>
+                <second>â</second>
+                <third>è</third>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <suffix>
+            <singular>
+                <first>e</first>
+                <second>es</second>
+                <third>e</third>
+            </singular>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <infix>
+            <all>er</all>
+        </infix>
+    </rule>
+
+</verb>

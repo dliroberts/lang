@@ -1,0 +1,33 @@
+<verb>
+    <name>Valoir</name>
+    <parent>Loir</parent>
+    <infinitive>
+    	<pattern>(.*va)loir</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+		    <plural>
+		    	<third>-3</third>
+		    </plural>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <stem>
+        	<subj1>-4</subj1>
+			<subj2>-3</subj2>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+		    <all>\1u</all>
+        </stem>
+    </rule>
+
+</verb>

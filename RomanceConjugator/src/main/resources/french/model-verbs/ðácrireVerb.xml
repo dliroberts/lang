@@ -1,0 +1,41 @@
+<verb>
+    <name>Écrire</name>
+    <parent>XTPerfectSuffix</parent>
+    <parent>Rire</parent>
+    <infinitive>
+    	<pattern>(.*(?:éc|sc)ri)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-2</first>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>\1</all>
+		</stem>
+		<infix>
+			<all>v<parent/></all>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<plural>
+				<all>\1</all>
+			</plural>
+		</stem>
+		<infix>
+			<plural>
+				<all>v</all>
+			</plural>
+		</infix>
+	</rule>
+
+</verb>

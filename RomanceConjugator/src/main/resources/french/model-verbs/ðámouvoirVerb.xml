@@ -1,0 +1,10 @@
+<verb>
+    <name>Émouvoir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>Mouvoir</parent>
+    <infinitive>
+    	<pattern>(ém)ouvoir</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+</verb>

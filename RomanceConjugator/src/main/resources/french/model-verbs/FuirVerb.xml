@@ -1,0 +1,10 @@
+<verb>
+    <name>Fuir</name>
+    <parent>XYBeforeVoicedSyllable</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+        <suffix>fuir</suffix>
+    </infinitive>
+
+</verb>

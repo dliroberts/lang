@@ -1,0 +1,46 @@
+<verb>
+    <name>Dire</name>
+    <parent>XTPerfectSuffix</parent>
+    <parent>Ire</parent>
+    <parent>XSInfixImperfectAndSubjunctivePresent</parent>
+    <infinitive>
+    	<pattern>(.*di)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>subjunctive present</tense>
+			<segment>stem</segment>
+			<segment>infix</segment>
+		</scope>
+		<target>
+			<tense>present</tense>
+		</target>
+		<forms>
+			<all>first person plural</all>
+		</forms>
+	</rule>
+
+	<rule>
+		<tense>historic</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<plural>
+				<second>t</second>
+			</plural>
+		</infix>
+		<suffix>
+			<plural>
+				<second>es</second>
+			</plural>
+		</suffix>
+	</rule>
+
+</verb>

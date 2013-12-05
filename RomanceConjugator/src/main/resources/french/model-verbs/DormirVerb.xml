@@ -1,0 +1,8 @@
+<verb>
+    <name>Dormir</name>
+    <parent>XShortPresentSingularStem</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<suffix>dormir</suffix>
+    </infinitive>
+</verb>

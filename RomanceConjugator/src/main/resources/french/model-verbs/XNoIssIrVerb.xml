@@ -1,0 +1,14 @@
+<verb>
+    <name>XNoIssIr</name>
+    <parent>Ir</parent>
+    <summary>For verb models without the infix 'iss'.</summary>
+
+    <rule>
+        <tense>present</tense>
+        <infix>
+            <plural>
+		        <all/>
+		    </plural>
+        </infix>
+    </rule>
+</verb>

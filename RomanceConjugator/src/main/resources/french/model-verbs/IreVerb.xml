@@ -1,0 +1,10 @@
+<verb>
+    <name>Ire</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+    	<pattern>(.*i)re</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+</verb>

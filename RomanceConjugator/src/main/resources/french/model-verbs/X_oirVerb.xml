@@ -1,0 +1,17 @@
+<verb>
+    <name>X_oir</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <singular>
+		        <all>\1</all>
+		    </singular>
+		    <subj2>-3</subj2>
+        </stem>
+    </rule>
+
+</verb>

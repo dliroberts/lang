@@ -1,0 +1,11 @@
+<pronoun-set>
+	<name>subj1</name>
+	<elements>
+		<singular>
+			<all/>
+		</singular>
+		<plural>
+			<third/>
+		</plural>
+	</elements>
+</pronoun-set>

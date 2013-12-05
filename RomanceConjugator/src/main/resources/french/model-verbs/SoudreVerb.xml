@@ -1,0 +1,46 @@
+<verb>
+    <name>Soudre</name>
+    <parent>XUsPerfectSuffix</parent>
+    <parent>XSPerfectSuffix</parent>
+    <parent>XShortPresentSuffix</parent>
+    <parent>Re</parent>
+    <infinitive>
+        <suffix>soudre</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+	<rule>
+		<tense>historic</tense>
+		<tense>subjunctive imperfect</tense>
+		<forms/>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<singular>
+				<all>-3</all>
+			</singular>
+			<plural>
+				<all>-4</all>
+			</plural>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<plural>
+				<all>lv</all>
+			</plural>
+		</infix>
+	</rule>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-4</first>
+		</stem>
+	</rule>
+
+</verb>

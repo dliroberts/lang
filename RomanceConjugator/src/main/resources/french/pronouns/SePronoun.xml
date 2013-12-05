@@ -1,0 +1,8 @@
+<pronoun>
+	<label>se</label>
+	<elided-label>s'</elided-label>
+	<applicability>
+	    <person>third</person>
+	    <reflexive/>
+	</applicability>
+</pronoun>

@@ -1,0 +1,19 @@
+<verb>
+    <name>Croître</name>
+    <parent>XÛParticiplePerfectSuffix</parent>
+    <parent>XÛHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Ître</parent>
+    <infinitive>
+        <suffix>croître</suffix>
+    </infinitive>
+	<summary>Infix (î) for the present singular.</summary>
+
+	<rule>
+		<tense>present</tense>
+		<infix>
+			<singular>
+				<all>î</all>
+			</singular>
+		</infix>
+	</rule>
+</verb>

@@ -1,0 +1,86 @@
+<verb>
+    <name>Seoir</name>
+    <parent>XIsPastParticipleSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+    	<full-name>seoir</full-name>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<scope>
+			<tense>participle perfect</tense>
+		</scope>
+		<forms>
+			<first><parent/></first>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<tense>present</tense>
+			<tense>imperfect</tense>
+			<tense>future</tense>
+			<tense>conditional</tense>
+			<tense>subjunctive present</tense>
+		</scope>
+		<forms>
+			<third><parent/></third>
+		</forms>
+	</rule>
+
+	<rule>
+		<scope>
+			<mood>imperative</mood>
+			<tense>infinitive perfect</tense>
+			<tense>gerund perfect</tense>
+			<tense>perfect</tense>
+			<tense>pluperfect</tense>
+			<tense>historic pluperfect</tense>
+			<tense>conditional perfect</tense>
+			<tense>subjunctive perfect</tense>
+			<tense>subjunctive pluperfect</tense>
+			<tense>historic</tense>
+			<tense>future perfect</tense>
+			<tense>conditional perfect, 2nd form</tense>
+			<tense>subjunctive imperfect</tense>
+		</scope>
+		<forms/>
+	</rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <subj1>-4i</subj1>
+		    <subj2>-3y</subj2>
+        </stem>
+        <infix>
+        	<plural>
+        		<third>é</third>
+        	</plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <tense>subjunctive present</tense>
+        <stem>
+            <all>-4ié</all>
+        </stem>
+    </rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>r</all>
+		</infix>
+	</rule>
+
+    <rule>
+    	<tense>participle perfect</tense>
+    	<stem>
+    		<first>-4</first>
+    	</stem>
+    </rule>
+
+</verb>

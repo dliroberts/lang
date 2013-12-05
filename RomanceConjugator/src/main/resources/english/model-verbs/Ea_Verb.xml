@@ -1,0 +1,36 @@
+<verb>
+    <name>Ea_</name>
+    <parent>Root</parent>
+    <summary>TODO</summary>
+    <infinitive>
+    	<pattern>([^aeiou]+)(ea)([^aeiou])</pattern>
+    </infinitive>
+
+    <rule>
+       	<tense>preterite</tense>
+       	<stem>
+       		<all>\1o\3e</all>
+       	</stem>
+      	<suffix>
+            <all/>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<stem>
+       		<first>\1o\3e</first>
+       	</stem>
+      	<suffix>
+            <all/>
+    	</suffix>
+    </rule>
+
+    <rule>
+       	<tense>participle past</tense>
+       	<suffix>
+       		<first>n</first>
+       	</suffix>
+    </rule>
+
+</verb>

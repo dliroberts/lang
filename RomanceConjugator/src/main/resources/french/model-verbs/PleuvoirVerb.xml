@@ -1,0 +1,54 @@
+<verb>
+    <name>Pleuvoir</name>
+    <parent>XUParticiplePerfectSuffix</parent>
+    <parent>XUxPresentSingularSuffix</parent>
+    <parent>X_voir</parent>
+    <infinitive>
+    	<pattern>(pl)euvoir</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+    	<scope>
+	        <mood>indicative</mood>
+	        <mood>conditional</mood>
+	        <mood>subjunctive</mood>
+	    </scope>
+        <forms>
+            <singular>
+            	<third/>
+            </singular>
+        </forms>
+    </rule>
+
+    <rule>
+    	<scope>
+	        <mood>imperative</mood>
+	        <mood>gerund</mood>
+	    </scope>
+        <forms/>
+    </rule>
+
+	<rule>
+		<tense>present</tense>
+		<stem>
+			<all>-5</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<tense>subjunctive present</tense>
+		<stem>
+			<all>-3</all>
+		</stem>
+	</rule>
+
+	<rule>
+		<tense>future</tense>
+		<infix>
+			<all>r</all>
+		</infix>
+	</rule>
+
+</verb>

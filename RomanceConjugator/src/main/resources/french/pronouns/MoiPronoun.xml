@@ -1,0 +1,8 @@
+<pronoun>
+	<label>moi</label>
+	<form>
+		<multiplicity>singular</multiplicity>
+	    <person>first</person>
+	    <disjunctive/>
+	</form>
+</pronoun>

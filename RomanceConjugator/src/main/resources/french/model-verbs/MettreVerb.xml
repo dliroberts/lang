@@ -1,0 +1,17 @@
+<verb>
+    <name>Mettre</name>
+    <parent>XIsPastParticipleSuffix</parent>
+    <parent>Ttre</parent>
+    <infinitive>
+    	<suffix>mettre</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+	<rule>
+		<tense>participle perfect</tense>
+		<stem>
+			<first>-5</first>
+		</stem>
+	</rule>
+
+</verb>

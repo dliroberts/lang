@@ -1,0 +1,28 @@
+<verb>
+    <name>Vouloir</name>
+    <parent>Loir</parent>
+    <infinitive>
+    	<pattern>(vou)loir</pattern>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+		    <singular>
+		    	<all>ve</all>
+		    </singular>
+		    <plural>
+		    	<third>veul</third>
+		    </plural>
+        </stem>
+    </rule>
+
+	<rule>
+		<tense>subjunctive present</tense>
+		<stem>
+			<subj1>veu</subj1>
+			<subj2>-3</subj2>
+		</stem>
+	</rule>
+</verb>

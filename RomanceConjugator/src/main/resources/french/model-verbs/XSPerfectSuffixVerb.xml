@@ -1,0 +1,12 @@
+<verb>
+    <name>XSPerfectSuffix</name>
+    <parent>XGenericRule</parent>
+	<summary>Perfect suffix (s).</summary>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <suffix>
+            <first>s</first>
+        </suffix>
+    </rule>
+</verb>

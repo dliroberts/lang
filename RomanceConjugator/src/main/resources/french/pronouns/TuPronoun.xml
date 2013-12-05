@@ -1,0 +1,8 @@
+<pronoun>
+	<label>tu</label>
+	<applicability>
+		<multiplicity>singular</multiplicity>
+    	<person>second</person>
+        <subject/>
+	</applicability>
+</pronoun>

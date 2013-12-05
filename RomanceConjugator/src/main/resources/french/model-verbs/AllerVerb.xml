@@ -1,0 +1,70 @@
+<verb>
+    <name>Aller</name>
+    <parent>Er</parent>
+    <infinitive>
+        <full-name>Aller</full-name>
+    </infinitive>
+	<summary>Stem for future (ir); stems for subjunctive present (aill/all); forms for present.</summary>
+
+    <rule>
+        <scope>
+            <mood>imperative</mood>
+        </scope>
+        <target>
+            <tense>present</tense>
+        </target>
+        <forms>
+            <singular>
+                <second>third person singular</second>
+            </singular>
+            <plural>
+                <first><parent/></first>
+                <second><parent/></second>
+            </plural>
+        </forms>
+    </rule>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+            <singular>
+                <all>va</all>
+            </singular>
+            <plural>
+                <third>v</third>
+            </plural>
+        </stem>
+        <suffix>
+            <singular>
+                <first>is</first>
+                <second>s</second>
+                <third/>
+            </singular>
+            <plural>
+                <third>ont</third>
+            </plural>
+        </suffix>
+    </rule>
+
+    <rule>
+        <tense>subjunctive present</tense>
+        <stem>
+            <subj1>aill</subj1>
+        </stem>
+    </rule>
+
+    <rule>
+        <tense>future</tense>
+        <stem>
+            <all>ir</all>
+        </stem>
+    </rule>
+
+    <rule>
+		<tense>future</tense>
+        <infix>
+            <all/>
+        </infix>
+    </rule>
+
+</verb>

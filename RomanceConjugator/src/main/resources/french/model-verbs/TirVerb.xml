@@ -1,0 +1,19 @@
+<verb>
+    <name>Tir</name>
+    <parent>XShortPresentSuffix</parent>
+    <parent>XNoIssIr</parent>
+    <infinitive>
+        <suffix>tir</suffix>
+    </infinitive>
+    <summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+   	    <stem>
+       	    <singular>
+    	        <all>-3</all>
+    	    </singular>
+	    </stem>
+    </rule>
+
+</verb>

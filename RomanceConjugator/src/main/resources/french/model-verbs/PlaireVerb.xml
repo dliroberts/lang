@@ -1,0 +1,36 @@
+<verb>
+    <name>Plaire</name>
+    <parent>XUHistoricAndSubjunctiveImperfectSuffix</parent>
+    <parent>Aire</parent>
+    <infinitive>
+        <suffix>plaire</suffix>
+    </infinitive>
+	<summary>TODO</summary>
+
+    <rule>
+        <tense>present</tense>
+        <stem>
+        	<singular>
+        		<all>-3</all>
+        	</singular>
+        </stem>
+        <infix>
+        	<singular>
+        		<first>i</first>
+        		<second>i</second>
+        		<third>î</third>
+        	</singular>
+            <plural>
+                <all>s</all>
+            </plural>
+        </infix>
+    </rule>
+
+    <rule>
+        <tense>participle perfect</tense>
+        <stem>
+            <first>-4</first>
+        </stem>
+    </rule>
+
+</verb>
